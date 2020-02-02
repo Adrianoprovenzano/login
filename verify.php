@@ -24,7 +24,7 @@ if($utente != $nome_utente_1 && $password != $password_utente_1 ) {
 	header("Location: http://localhost:8888/form_exemple/index.html");
 }elseif($utente == $nome_utente_1 && $password == $password_utente_1){
 	// potrei reindirizzare l utente verso un altra pagina php
-	echo '<h1>Welcome'. ' '. $nome_utente_1. ' Ora puoi accedere a tutte le tue foto personali!!.</h1>';
+	header("Location: https://www.instagram.com/pro_dry_code/");
 
 }elseif($utente != $nome_utente_1 || $password != $password_utente_1 ){
 	
